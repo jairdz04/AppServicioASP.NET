@@ -142,8 +142,7 @@ namespace AppServicioASP.NET.Modelo
                 (this.postalRemitente == o.postalRemitente) &&
                 (this.postalDestinatario == o.postalDestinatario) &&
                 (this.peso == o.peso) &&
-                (this.costo == o.costo) &&
-                ))
+                (this.costo == o.costo))
 
                 result = true;
 
@@ -152,14 +151,7 @@ namespace AppServicioASP.NET.Modelo
 
         #endregion
 
-        public void CalcularCosto( double c) {
-
-            double d;
-
-            d = peso * costo;
-
-            
-        }
+       
 
 
     }

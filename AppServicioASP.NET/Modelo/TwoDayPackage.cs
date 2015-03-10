@@ -71,6 +71,8 @@ namespace AppServicioASP.NET.Modelo
            
             j= cuota + (peso*costo);
 
+          
+
         }
 
 
