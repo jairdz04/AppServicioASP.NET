@@ -60,7 +60,8 @@ namespace AppServicioASP.NET.Modelo
             Bills c = (Bills)obj;
             bool result = false;
 
-            if ((this.id == c.id))
+            if ((this.id == c.id)&&
+                (this.fecha==c.fecha))
 
                 result = true;
 
