@@ -21,7 +21,7 @@ namespace AppServicioASP.NET.Web
             Label2.Text = Bills.ToString().Replace("\n", "</br>");
                 //auto.ToString().Replace("\n", "</br>") + auto.agregarElementos(remolque).ToString().Replace("\n", "</br>") +
 
-               // auto.aggregar(list).ToString().Replace("\n", "</br>");
+               // auto.aggregar(list).ToString().Replace("\n", "</br>")//;
    
 
 
